@@ -4,7 +4,9 @@ def conference_badges(name)
   return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator
+def batch_badge_creator(attendees)
+  badges = []
+  badges.push("Hello, my name is #{badge}.")
 end
 
 def assign_rooms
