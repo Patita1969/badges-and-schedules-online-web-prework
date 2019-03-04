@@ -11,8 +11,11 @@ end
 return badges
 
 def assign_rooms(speakers)
-  assign.push("Hello, #{speaker}"! You'll be assigned to room#{index + 1}!")
-end
+  assign=[]
+  
+  speakers.each_with_index{|speaker,index|
+  assign.push("Hello, #{speaker}! You'll be assigned to room #{index + 1}!")
+    }
+   return assign
+end 
 
-def printer
-end
